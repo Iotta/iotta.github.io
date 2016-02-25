@@ -83,19 +83,34 @@
                                         <ul class="nav nav-pills" id="mainNav">
 
                                             <li>
-                                                <a data-hash data-hash-offset="80" href="#home">Home</a>
+                                                <a data-hash data-hash-offset="80" href="#home"
+                                                   onclick="ga('send', 'event', 'Menu', 'click', 'Home')">
+                                                    Home
+                                                </a>
                                             </li>
                                             <li>
-                                                <a data-hash data-hash-offset="80" href="#what">Wat is het?</a>
+                                                <a data-hash data-hash-offset="80" href="#what"
+                                                   onclick="ga('send', 'event', 'Menu', 'click', 'Wat is het?')">
+                                                    Wat is het?
+                                                </a>
                                             </li>
                                             <li>
-                                                <a data-hash data-hash-offset="80" href="#advantages">Voordelen</a>
+                                                <a data-hash data-hash-offset="80" href="#advantages"
+                                                   onclick="ga('send', 'event', 'Menu', 'click', 'Voordelen')">
+                                                    Voordelen
+                                                </a>
                                             </li>
                                             <li>
-                                                <a data-hash data-hash-offset="80" href="#pilot">Doe mee</a>
+                                                <a data-hash data-hash-offset="80" href="#pilot"
+                                                   onclick="ga('send', 'event', 'Menu', 'click', 'Doe mee')">
+                                                    Doe mee
+                                                </a>
                                             </li>
                                             <li>
-                                                <a data-hash data-hash-offset="80" href="#contact">Meer info</a>
+                                                <a data-hash data-hash-offset="80" href="#contact"
+                                                   onclick="ga('send', 'event', 'Menu', 'click', 'Meer info')">
+                                                    Meer info
+                                                </a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -140,9 +155,11 @@
                         <div class="btn-group-lg">
                             <br><br>
                             <a data-hash data-hash-offset="80" href="#contact"
+                               onclick="ga('send', 'event', 'Banner', 'click', 'Ik doe mee')"
                                class="btn btn-light bt-lg mt-md mr-sm appear-animation" style="width: 190px;"
                                data-appear-animation="bounceIn" data-appear-animation-delay="3000"><strong>IK DOE EEN PILOT!</strong></a>
                             <a data-hash data-hash-offset="80" href="#what"
+                               onclick="ga('send', 'event', 'Banner', 'click', 'Vertel me meer')"
                                class="btn btn-light bt-lg mt-md mr-sm btn-borders appear-animation" style="width: 190px;"
                                data-appear-animation="bounceIn" data-appear-animation-delay="4000">
                                 VERTEL ME MEER</a>
@@ -159,7 +176,10 @@
                 <!--DIVIDER-->
                 <hr class="invisible">
                 <div class="divider divider-style-1 divider-primary taller">
-                    <a data-hash data-hash-offset="80" href="#what"><i class="fa fa-chevron-down"></i></a>
+                    <a data-hash data-hash-offset="80" href="#what"
+                       onclick="ga('send', 'event', 'Banner', 'click', 'Divider - next')">
+                        <i class="fa fa-chevron-down"></i>
+                    </a>
                 </div>
                 <hr class="invisible">
 
@@ -216,7 +236,8 @@
                     <div class="featured-boxes featured-boxes-style-3 mt-xlg">
                         <div class="row">
                             <div class="col-md-3">
-                                <a data-hash data-hash-offset="80" href="#per-room">
+                                <a data-hash data-hash-offset="80" href="#per-room"
+                                   onclick="ga('send', 'event', 'Menu - Wat is het?', 'click', 'Per ruimte')">
                                     <div class="featured-box featured-box-primary featured-box-effect-3">
                                         <div class="box-content">
                                             <i class="icon-featured fa fa-map-pin"></i>
@@ -232,7 +253,8 @@
                                 </a>
                             </div>
                             <div class="col-md-3">
-                                <a data-hash data-hash-offset="80" href="#automatic">
+                                <a data-hash data-hash-offset="80" href="#automatic"
+                                   onclick="ga('send', 'event', 'Menu - Wat is het?', 'click', 'Automatisch')">
                                     <div class="featured-box featured-box-primary featured-box-effect-3">
                                         <div class="box-content">
                                             <i class="icon-featured fa fa-magic"></i>
@@ -247,7 +269,8 @@
                                 </a>
                             </div>
                             <div class="col-md-3">
-                                <a data-hash data-hash-offset="80" href="#full-control">
+                                <a data-hash data-hash-offset="80" href="#full-control"
+                                   onclick="ga('send', 'event', 'Menu - Wat is het?', 'click', 'Volledige controle')">
                                     <div class="featured-box featured-box-primary featured-box-effect-3">
                                         <div class="box-content">
                                             <i class="icon-featured fa fa-gears"></i>
@@ -262,7 +285,8 @@
                                 </a>
                             </div>
                             <div class="col-md-3">
-                                <a data-hash data-hash-offset="80" href="#easy-install">
+                                <a data-hash data-hash-offset="80" href="#easy-install"
+                                   onclick="ga('send', 'event', 'Menu - Wat is het?', 'click', 'Eenvoudige plaatsing')">
                                     <div class="featured-box featured-box-primary featured-box-effect-3">
                                         <div class="box-content">
                                             <i class="icon-featured fa fa-wrench"></i>
@@ -312,10 +336,14 @@
 
                         <div class="call-to-action-btn">
                             <br><br>
-                            <a data-hash data-hash-offset="80" href="#contact" class="btn btn-primary">IK DOE EEN
-                                PILOT!</a>&nbsp;
-                            <a data-hash data-hash-offset="80" href="#automatic" class="btn btn-borders btn-primary">
-                                VERTEL ME MEER</a>
+                            <a data-hash data-hash-offset="80" href="#contact" class="btn btn-primary"
+                               onclick="ga('send', 'event', 'Per ruimte', 'click', 'Ik doe een pilot')">
+                                IK DOE EEN PILOT!
+                            </a>&nbsp;
+                            <a data-hash data-hash-offset="80" href="#automatic" class="btn btn-borders btn-primary"
+                               onclick="ga('send', 'event', 'Per ruimte', 'click', 'Vertel me meer')">
+                                VERTEL ME MEER
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -324,7 +352,10 @@
                 <hr class="invisible">
                 <div class="divider divider-style-3 taller appear-animation" data-appear-animation="bounceIn"
                      data-appear-animation-delay="300">
-                    <a data-hash data-hash-offset="80" href="#what"><i class="fa fa-chevron-up"></i></a>
+                    <a data-hash data-hash-offset="80" href="#what"
+                       onclick="ga('send', 'event', 'Per ruimte', 'click', 'Divider - up')">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
                 </div>
                 <hr class="invisible">
             </div>
@@ -352,10 +383,14 @@
 
                         <div class="call-to-action-btn">
                             <br><br>
-                            <a data-hash data-hash-offset="80" href="#pilot" class="btn btn-primary">IK DOE EEN
-                                PILOT!</a>&nbsp;
-                            <a data-hash data-hash-offset="80" href="#full-control" class="btn btn-borders btn-primary">
-                                VERTEL ME MEER</a>
+                            <a data-hash data-hash-offset="80" href="#pilot" class="btn btn-primary"
+                               onclick="ga('send', 'event', 'Echt slim', 'click', 'Ik doe een pilot')">
+                                IK DOE EEN PILOT!
+                            </a>&nbsp;
+                            <a data-hash data-hash-offset="80" href="#full-control" class="btn btn-borders btn-primary"
+                               onclick="ga('send', 'event', 'Echt slim', 'click', 'Vertel me meer')">
+                                VERTEL ME MEER
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-4 col-md-offset-1 mt-xl">
@@ -368,7 +403,10 @@
                 <hr class="invisible">
                 <div class="divider divider-style-3 taller appear-animation" data-appear-animation="bounceIn"
                      data-appear-animation-delay="300">
-                    <a data-hash data-hash-offset="80" href="#what"><i class="fa fa-chevron-up"></i></a>
+                    <a data-hash data-hash-offset="80" href="#what"
+                       onclick="ga('send', 'event', 'Echt slim', 'click', 'Divider - up')">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
                 </div>
                 <hr class="invisible">
             </div>
@@ -411,10 +449,14 @@
 
                         <div class="call-to-action-btn">
                             <br><br>
-                            <a data-hash data-hash-offset="80" href="#pilot" class="btn btn-primary">IK DOE EEN
-                                PILOT!</a>&nbsp;
-                            <a data-hash data-hash-offset="80" href="#easy-install" class="btn btn-borders btn-primary">
-                                VERTEL ME MEER</a>
+                            <a data-hash data-hash-offset="80" href="#pilot" class="btn btn-primary"
+                               onclick="ga('send', 'event', 'Volledige controle', 'click', 'Ik doe een pilot')">
+                                IK DOE EEN PILOT!
+                            </a>&nbsp;
+                            <a data-hash data-hash-offset="80" href="#easy-install" class="btn btn-borders btn-primary"
+                               onclick="ga('send', 'event', 'Volledige controle', 'click', 'Vertel me meer')">
+                                VERTEL ME MEER
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -423,7 +465,10 @@
                 <hr class="invisible">
                 <div class="divider divider-style-3 taller appear-animation" data-appear-animation="bounceIn"
                      data-appear-animation-delay="300">
-                    <a data-hash data-hash-offset="80" href="#what"><i class="fa fa-chevron-up"></i></a>
+                    <a data-hash data-hash-offset="80" href="#what"
+                       onclick="ga('send', 'event', 'Volledige controle', 'click', 'Divider - up')">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
                 </div>
                 <hr class="invisible">
             </div>
@@ -452,9 +497,12 @@
 
                         <div class="call-to-action-btn">
                             <br><br>
-                            <a data-hash data-hash-offset="80" href="#pilot" class="btn btn-primary">IK DOE EEN
-                                PILOT!</a>&nbsp;
-                            <a data-hash data-hash-offset="80" href="#advantages" class="btn btn-borders btn-primary">
+                            <a data-hash data-hash-offset="80" href="#pilot" class="btn btn-primary"
+                               onclick="ga('send', 'event', 'Eenvoudig te plaatsen', 'click', 'Ik doe een pilot')">
+                                IK DOE EEN PILOT!
+                            </a>&nbsp;
+                            <a data-hash data-hash-offset="80" href="#advantages" class="btn btn-borders btn-primary"
+                               onclick="ga('send', 'event', 'Eenvoudig te plaatsen', 'click', 'Vertel me meer')">
                                 VERTEL ME MEER
                             </a><span class="arrow hlb hidden-xs hidden-sm hidden-md"
                                           data-appear-animation="rotateInUpLeft" data-appear-animation-delay="2000"
@@ -488,7 +536,8 @@
                     <div class="featured-boxes featured-boxes-style-3 mt-xlg">
                         <div class="row">
                             <div class="col-md-4">
-                                <a data-hash data-hash-offset="80" href="#comfort">
+                                <a data-hash data-hash-offset="80" href="#comfort"
+                                   onclick="ga('send', 'event', 'Menu - Voordelen', 'click', 'Comfort')">
                                     <div class="featured-box featured-box-primary featured-box-effect-3">
                                         <div class="box-content">
                                             <i class="icon-featured fa fa-sun-o"></i>
@@ -505,7 +554,8 @@
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a data-hash data-hash-offset="80" href="#savings">
+                                <a data-hash data-hash-offset="80" href="#savings"
+                                   onclick="ga('send', 'event', 'Menu - Voordelen', 'click', 'Besparing')">
                                     <div class="featured-box featured-box-primary featured-box-effect-3">
                                         <div class="box-content">
                                             <i class="icon-featured fa fa-eur"></i>
@@ -520,7 +570,8 @@
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a data-hash data-hash-offset="80" href="#insight">
+                                <a data-hash data-hash-offset="80" href="#insight"
+                                   onclick="ga('send', 'event', 'Menu - Voordelen', 'click', 'Inzicht')">
                                     <div class="featured-box featured-box-primary featured-box-effect-3">
                                         <div class="box-content">
                                             <i class="icon-featured fa fa-area-chart"></i>
@@ -580,10 +631,14 @@
 
                         <div class="call-to-action-btn">
                             <br><br>
-                            <a data-hash data-hash-offset="80" href="#pilot" class="btn btn-primary">IK DOE EEN
-                                PILOT!</a>&nbsp;
-                            <a data-hash data-hash-offset="80" href="#savings" class="btn btn-borders btn-primary">
-                                VERTEL ME MEER</a>
+                            <a data-hash data-hash-offset="80" href="#pilot" class="btn btn-primary"
+                               onclick="ga('send', 'event', 'Comfort', 'click', 'Ik doe een pilot')">
+                               IK DOE EEN PILOT!
+                            </a>&nbsp;
+                            <a data-hash data-hash-offset="80" href="#savings" class="btn btn-borders btn-primary"
+                               onclick="ga('send', 'event', 'Comfort', 'click', 'Vertel me meer')">
+                                VERTEL ME MEER
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -592,7 +647,10 @@
                 <hr class="invisible">
                 <div class="divider divider-style-3 taller appear-animation" data-appear-animation="bounceIn"
                      data-appear-animation-delay="300">
-                    <a data-hash data-hash-offset="80" href="#advantages"><i class="fa fa-chevron-up"></i></a>
+                    <a data-hash data-hash-offset="80" href="#advantages"
+                       onclick="ga('send', 'event', 'Comfort', 'click', 'Divider - up')">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
                 </div>
                 <hr class="invisible">
             </div>
@@ -641,10 +699,14 @@
 
                         <div class="call-to-action-btn">
                             <br><br>
-                            <a data-hash data-hash-offset="80" href="#pilot" class="btn btn-primary">IK DOE EEN
-                                PILOT!</a>&nbsp;
-                            <a data-hash data-hash-offset="80" href="#insight" class="btn btn-borders btn-primary">
-                                VERTEL ME MEER</a>
+                            <a data-hash data-hash-offset="80" href="#pilot" class="btn btn-primary"
+                               onclick="ga('send', 'event', 'Besparing', 'click', 'Ik doe een pilot')">
+                               IK DOE EEN PILOT!
+                            </a>&nbsp;
+                            <a data-hash data-hash-offset="80" href="#insight" class="btn btn-borders btn-primary"
+                                onclick="ga('send', 'event', 'Besparing', 'click', 'Vertel me meer')">
+                                VERTEL ME MEER
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-4 col-md-offset-1 mt-xl">
@@ -657,7 +719,10 @@
                 <hr class="invisible">
                 <div class="divider divider-style-3 taller appear-animation" data-appear-animation="bounceIn"
                      data-appear-animation-delay="300">
-                    <a data-hash data-hash-offset="80" href="#advantages"><i class="fa fa-chevron-up"></i></a>
+                    <a data-hash data-hash-offset="80" href="#advantages"
+                       onclick="ga('send', 'event', 'Besparing', 'click', 'Divider - up')">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
                 </div>
                 <hr class="invisible">
 
@@ -706,10 +771,14 @@
 
                         <div class="call-to-action-btn">
                             <br>
-                            <a data-hash data-hash-offset="80" href="#pilot" class="btn btn-primary">IK DOE EEN
-                                PILOT!</a>&nbsp;
-                            <a data-hash data-hash-offset="80" href="#pilot" class="btn btn-borders btn-primary">
-                                VERTEL ME MEER</a><span class="arrow hlb hidden-xs hidden-sm hidden-md"
+                            <a data-hash data-hash-offset="80" href="#pilot" class="btn btn-primary"
+                               onclick="ga('send', 'event', 'Inzicht', 'click', 'Ik doe een pilot')">
+                               IK DOE EEN PILOT!
+                            </a>&nbsp;
+                            <a data-hash data-hash-offset="80" href="#pilot" class="btn btn-borders btn-primary"
+                               onclick="ga('send', 'event', 'Inzicht', 'click', 'Vertel me meer')">
+                                VERTEL ME MEER
+                            </a><span class="arrow hlb hidden-xs hidden-sm hidden-md"
                                               data-appear-animation="rotateInUpLeft" data-appear-animation-delay="2000"
                                               style="top: -12px;"></span>
                             <br><br>
@@ -873,9 +942,12 @@
                     </div>
                     <div class="call-to-action-btn">
                         <br>
-                        <a data-hash data-hash-offset="80" href="#contact" class="btn btn-primary">IK DOE EEN
-                            PILOT!</a>&nbsp;
-                        <a data-hash data-hash-offset="80" href="#contact" class="btn btn-borders btn-primary">
+                        <a data-hash data-hash-offset="80" href="#contact" class="btn btn-primary"
+                           onclick="ga('send', 'event', 'Pilot', 'click', 'Ik doe een pilot')">
+                           IK DOE EEN PILOT!
+                        </a>&nbsp;
+                        <a data-hash data-hash-offset="80" href="#contact" class="btn btn-borders btn-primary"
+                           onclick="ga('send', 'event', 'Pilot', 'click', 'Lets talk')">
                             LET'S TALK</a><span class="arrow hlb hidden-xs hidden-sm hidden-md"
                                                     data-appear-animation="rotateInUpLeft" data-appear-animation-delay="2000"
                                                     style="top: -12px;"></span>
@@ -970,8 +1042,9 @@
                                 </div>
                                 <div class="row mt-xlg">
                                     <div class="col-md-12">
-                                        <input type="submit" value="Send Message" class="btn btn-primary btn-lg mb-xlg"
-                                               data-loading-text="Loading...">
+                                        <input type="submit" value="Stuur bericht" class="btn btn-primary btn-lg mb-xlg"
+                                               onclick="ga('send', 'event', 'Contact', 'click', 'Stuur bericht')"
+                                        data-loading-text="Aan het laden...">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -1030,7 +1103,10 @@
                                 <input class="form-control ml-lg" placeholder="e-mail" name="newsletterEmail"
                                        id="newsletterEmail" type="text">
 										<span class="input-group-btn">
-											<button class="btn btn-default mr-lg" type="submit">Ja, graag!</button>
+											<button class="btn btn-default mr-lg" type="submit"
+                                                    onclick="ga('send', 'event', 'Nieuwsbrief', 'click', 'Ja, graag!')">
+                                                Ja, graag!
+                                            </button>
 										</span>
                             </div>
                         </form>
@@ -1160,6 +1236,7 @@
     });
 </script>
 
+<!-- Google Analytics -->
 <script>
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
@@ -1173,9 +1250,15 @@
         m.parentNode.insertBefore(a, m)
     })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
+    // Production
     ga('create', 'UA-73714609-1', 'auto');
+    // Test
+//    ga('create', 'UA-73714609-2', 'auto');
+
     ga('send', 'pageview');
 </script>
+<!-- End Google Analytics -->
+
 
 </body>
 </html>
