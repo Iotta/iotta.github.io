@@ -1,0 +1,200 @@
+/* Add here all your CSS customizations */
+
+
+h6 {
+	/*font-size: 1em;*/
+	/*font-weight: 400;*/
+	/*letter-spacing: normal;*/
+    font-weight: 300;
+    font-size: 21px;
+    color: #777;
+	line-height: 35px;
+	margin: 0 0 20px;
+}
+
+section.section.section-no-border {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 0 0 0;
+}
+
+.home-intro {
+    margin-bottom: 0;
+}
+
+section.section.section-primary h2 {
+    color: white;
+}
+
+p.lead {
+    line-height: 35px;
+}
+
+#footer {
+    padding: 0 0 0 0;
+}
+
+#footer p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+
+}
+
+.slide-header {
+    color: white !important;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.slide-item span {
+    color: white !important;
+    opacity: 0.95;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: rgba(0, 0, 0, 0.2);
+    line-height: 40px;
+    white-space: nowrap;
+    padding: 5px;
+}
+
+html .btn-light {
+    color: #92d050;
+    /*text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);*/
+    text-shadow: none;
+    background-color: #FFF;
+    border-color: #FFF #FFF #e6e6e6;
+}
+
+.bg-gradient {
+    background: #92d050 !important; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(70deg, #6b993a, #aaf25c) !important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(70deg, #6b993a, #aaf25c) !important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(70deg, #6b993a, #aaf25c) !important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(70deg, #6b993a, #aaf25c) !important; /* Standard syntax (must be last) */
+}
+
+.home-concept p {
+    line-height: 20px;
+    font-weight: 200;
+    font-size: 16px;
+ }
+
+.cd-headline.loading-bar .cd-words-wrapper::after {
+  background: #92d050;
+}
+
+/*Funky fix from the Okler team for disappearing menu items*/
+/*@media (min-width: 991px) {
+    #header .header-nav-main nav > ul > li:not(.active) > a	{
+        color: #92d050 !important;
+    }
+
+    #header .header-nav-main nav > ul > li:not(.active) > a:hover	{
+        color: #FFF !important;
+    }
+
+    #header .header-nav-main nav > ul > li.active > a {
+        background-color: #92d050 !important;
+        color: #FFF !important;
+    }
+}*/
+
+@media (min-width: 992px) {
+    #header .header-nav-main {
+        margin: 7px 0 0;
+    }
+}
+
+.m-t-0 { margin-top:    0 !important; }
+.m-r-0 { margin-right:  0 !important; }
+.m-b-0 { margin-bottom: 0 !important; }
+
+.dummy {
+    margin-top: 100%;
+}
+.thumbnail {
+    position: absolute;
+    top: 15px;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    border: 1px solid #92d050;
+    background-color: #92d050;
+    text-align: center;
+    vertical-align: top;
+    /*padding-top:calc(50% - 30px);*/
+    padding: 25px 5px 5px 5px;
+}
+
+.call-to-action {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.call-to-action .call-to-action-btn{
+    padding-left: 0;
+    padding-right: 0;
+    right: 0;
+    top: 60%;
+}
+
+p {
+	margin: 0 0 10px;
+	margin-bottom: 20px;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.icon-boxes {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+@media (min-width: 768px) {
+	p {
+		font-size: 20px;
+        line-height: 38px;
+	}
+    
+    .icon-boxes {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+h2 b {
+    color: #92d050;
+    font-weight: bold;
+}
+
+.img-behind {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;    
+  /*background-color: red;*/
+  text-align: right;
+  z-index: -1;
+}
+
+.image-fit {
+    /*width: 100%;*/
+    height: 100%;
+    right: 0;
+    object-fit: contain;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #DDD; 
+    outline: 0;
+}
+
+.no-underline {
+    text-decoration: none !important;
+}
